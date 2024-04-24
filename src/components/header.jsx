@@ -1,15 +1,14 @@
-import Telefon from "../assets/Header/aramaicon.png"
+import Telefon from "../assets/Header/aramaicon.svg"
 export default function Header(){
     return(
         <>
-        <container>
+        <container className="bg-blue">
             <div className="navBarDark">
-                <div>
-                    {Telefon} (225)555-0118
+                <div >
+                    <p><img  src={Telefon}/>(225)555-0118</p>
                 </div>
-
             </div>
         </container>
         </>
-    )
+    );
 }
