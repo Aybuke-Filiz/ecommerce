@@ -7,8 +7,8 @@ import uzaylı from "../../assets/Client/uzaylı.svg"
 
 export default function Client(){
     return(
-        <span>
-            <div>
+        <span className="flex flex-col items-center px-[50px]">
+            <div className="flex flex-row  items-center w-full h-14  gap-[30px] " >
         <img src={hooli}/>
         <img src={lyft}/>
         <img src={yaprak}/>

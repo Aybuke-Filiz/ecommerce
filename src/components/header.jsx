@@ -11,7 +11,7 @@ import like from "../assets/Header/like.svg"
 
 export default function Header(){
     return(
-    
+    //TODO: mobil versiyon için menü çubuğu düzenlemesi
         <header className="flex flex-col">
             <span className="hidden lg:block">
             <section className="flex flex-row items-center justify-between text-white bg-headerTop w-full h-14 px-6">
