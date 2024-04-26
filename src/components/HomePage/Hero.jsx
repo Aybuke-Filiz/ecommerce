@@ -1,4 +1,4 @@
-
+import kirmizisac from "../../assets/Hero/kirmizisac.svg"
 
 export default function Hero(){
     return(
@@ -12,6 +12,9 @@ export default function Hero(){
                 <button className="bg-[#23A6F0] p-[15px, 40px, 15px, 40px] rounded-md gap-2.5 w-56 h-16">
                     <h3 className="text-white">SHOP NOW</h3>
                 </button>
+            </div>
+            <div>
+                <img src={kirmizisac}/>
             </div>
         </container>
     )
