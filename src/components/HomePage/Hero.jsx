@@ -2,7 +2,7 @@ import kirmizisac from "../../assets/Hero/kirmizisac.svg"
 
 export default function Hero(){
     return(
-            
+            //TODO:slider yapılacak
             <container className="flex lg:flex-row flex-col w-full h-[622px] bg-gradient-to-r from-blue-200 to-teal-200 rounded-3xl">
                 <div className="flex flex-col">
                 <h5 className="text-[#2A7CC7]">SUMMER 2020</h5>
