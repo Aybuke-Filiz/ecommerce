@@ -1,6 +1,6 @@
 
 import { Route, Switch } from 'react-router-dom'
-import PageContent from './components/HomePage/PageContent'
+import PageContent from './layout/PageContent'
 
 function App() {
   
