@@ -1,6 +1,7 @@
 
 import Client from "../components/HomePageComponents/Client";
 import Hero from "../components/HomePageComponents/Hero";
+import ProductCards from "../components/HomePageComponents/ProductCards";
 import ShopCards from "../components/HomePageComponents/ShopCards";
 
 
@@ -11,6 +12,7 @@ export default function PageContent(){
         <Hero/>
         <Client/>
         <ShopCards/>
+        <ProductCards/>
         </>
     )
 }
