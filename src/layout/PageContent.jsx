@@ -1,4 +1,5 @@
 
+import Blog from "../components/HomePageComponents/Blog";
 import Client from "../components/HomePageComponents/Client";
 import Content from "../components/HomePageComponents/Content";
 import Features from "../components/HomePageComponents/Features";
@@ -17,6 +18,7 @@ export default function PageContent(){
         <ProductCards/>
         <Content/>
         <Features/>
+        <Blog/>
         </>
     )
 }
