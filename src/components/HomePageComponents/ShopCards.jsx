@@ -5,7 +5,7 @@ import third from "../../assets/ShopCards/third.svg"
 export default function ShopCards(){
     return(
         <container className="w-full h-[732px] flex lg:flex-row flex-col justify-between  items-center content-center">
-            <span className="w-[1185px] h-[732px] p-[80px, 0px, 80px, 0px] items-start">
+            <span className="w-[1185px] h-[732px] p-[80px, 0px, 80px, 0px] flex items-start">
                 <section className="w-[1185px] h-[572px] gap-4">
                     <card className="w-[611px] h-[572px]">
                         <div className="w-[420px] h-[238px] bg-[#2D8BC0BF] opacity-75">
