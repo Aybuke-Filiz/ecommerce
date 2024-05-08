@@ -7,7 +7,7 @@ export default function Features(){
         <container className="w-full h-[632px]">
             <span className="w-full h-[616px] p-[80px, 0px, 80px, 0px] gap-20">
                 <card className="w-[692px] h-[102px]">
-                    <div className="w-[691px] h-[102px] gap-2.5">
+                    <div className="w-[691px] h-[102px] gap-2.5 flex flex-col justify-center">
                         <h4 className="text-softText flex justify-center">Featured Products</h4>
                         <h3 className="text-headerTop flex justify-center">THE BEST SERVICES</h3>
                         <p className="text-softText flex justify-center">Problems trying to resolve the conflict between </p>
@@ -24,7 +24,7 @@ export default function Features(){
                         <h3 className="text-headerTop flex justify-center">Concrete</h3>
                         <p className="text-softText flex justify-center">Defalcate is most focused in helping you discover your most beautiful smile</p>
                     </div>
-                    <div className="w-[315px] h-[254px] p-[35px, 40px, 35px, 40px] gap-5">
+                    <div className="w-[315px] h-[254px] p-[35px, 40px, 35px, 40px] gap-5 ">
                         <img className="flex justify-center"src={arrow}/>
                         <h3 className="text-headerTop flex justify-center">Hack Growth</h3>
                         <p className="text-softText flex justify-center">Overcame any hurdle or any other problem.</p>

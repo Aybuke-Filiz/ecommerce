@@ -14,7 +14,7 @@ export default function Hero(){
                 </button>
             </div>
             <div>
-                <img className=" w-[687px] h-[620px] top-20 "src={kirmizisac}/>
+                <img className=" w-[687px] h-[620px] top-20 flex lg:flex-col"src={kirmizisac}/>
             </div>
         </container>
     )
