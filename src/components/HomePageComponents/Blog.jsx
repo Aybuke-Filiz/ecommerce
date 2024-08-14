@@ -33,7 +33,7 @@ export default function Blog(){
                         <img src={stars}/>
                         </div>
                         <h5 className="text-headerTop">Graphic Design</h5>
-                        <p>We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
+                        <p>We focus on ergonomics and meeting you where you work. Its only a keystroke away.</p>
                         <img src={totalsales}/>
                         <div className="flex items-center gap-2.5">
                             <h5 className="text-faint">$16.48</h5>
@@ -64,7 +64,7 @@ export default function Blog(){
                         <img src={stars}/>
                         </div>
                         <h5 className="text-headerTop">Graphic Design</h5>
-                        <p>We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
+                        <p>We focus on ergonomics and meeting you where you work. Its only a keystroke away.</p>
                         <img src={totalsales}/>
                         <div className="flex items-center gap-2.5">
                             <h5 className="text-faint">$16.48</h5>
