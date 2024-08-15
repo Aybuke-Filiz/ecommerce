@@ -16,6 +16,9 @@ export default {
         green:"#23856D",
         
       },
+      inset: {
+        '176': '176px',
+      },
     },
   },
   plugins: [],
