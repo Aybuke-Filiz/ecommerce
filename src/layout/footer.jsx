@@ -2,74 +2,61 @@ import logo from "../assets/Footer/logo.svg"
 import media from "../assets/Footer/media.svg"
 
 export default function Footer(){
-    return(
-        <footer className="w-full h-[488px]">
-            <container className="w-full h-[142px]">
-                <span className="w-[1050px] h-[138px] p-[40px, 0px, 40px, 0px] ">
-                    <div className="w-[1049px] h-[58px] g-[577.5px] bg-[#FAFAFA] flex justify-between">
-                        <img src={logo}/>
-                        <img className="w-60 h-6"src={media}/>
+    return (
+        <footer className="w-full bg-[#FAFAFA] px-[50px]">
+            <div className="w-full h-[142px]">
+                <div className="w-full h-[138px] p-[40px_0px]">
+                    <div className="w-full h-[58px] bg-[#FAFAFA] flex justify-between items-center">
+                        <img src={logo} alt="Logo" />
+                        <img className="w-60 h-6" src={media} alt="Social Media" />
                     </div>
-                </span>
-                <span className="w-full h-[272px]">
-                    <card className="w-full h-[270px] p-[50px, 0px, 50px, 0px] flex flex-row items-center">
-                        <div className="w-[1041px] h-[170px] gap-8 flex flex-row items-center">
-                        <div className="flex lg:flex-col gap-5">
-                <h5 className="text-title">Company Info</h5>
-                <div className="w-24 h-32 gap-2.5 flex flex-col">
-                <a href="#">About Us</a>
-                <a href="#">Carrier</a>
-                <a href="#">We are hiring</a>
-                <a href="#">Blog</a> 
                 </div>
-                </div>
-                <div className="flex lg:flex-col gap-5">
-                <h5 className="text-title">Company Info</h5>
-                <div className="w-24 h-32 gap-2.5 flex flex-col">
-                <a href="#">About Us</a>
-                <a href="#">Carrier</a>
-                <a href="#">We are hiring</a>
-                <a href="#">Blog</a>
-                </div>
-                </div>
-                <div className="flex lg:flex-col gap-5">
-                <h5 className="text-title">Features</h5>
-                <div className="w-36 h-32 gap-2.5 flex flex-col">
-                <a href="#">Business Marketing</a>
-                <a href="#">User Analytic</a>
-                <a href="#">Live Chat</a>
-                <a href="#">Unlimited Support</a>
-                </div>
-                </div>
-                <div className="flex lg:flex-col gap-5">
-                <h5 className="text-title">Resources</h5>
-                <div className="w-[106px] h-32 gap-2.5 flex flex-col">
-                <a href="#">IOS & Android</a>
-                <a href="#">Watch a Demo</a>
-                <a href="#">Customers</a>
-                <a href="#">API</a>
-                </div>
-                </div>
-                </div>
-                <div className="w-80 h-[131px] gap-5">
-                    <h5 className="text-title">Get In Touch</h5>
-                    <div className="w-80 h-14 rounded-md border bg-[#E6E6E6] flex flex-row justify-end">
-                        <p className="text-softText">Your Email</p>
-                        <button className="w-[117px] h-14 rounded-[0px, 5px, 5px, 0px] border bg-[#23A6F0]">
-                            <p className="w-[72px] h-7 text-white">Subscribe</p>
-                        </button>
-                        </div> 
-                </div>
-                    </card>
-                    <card className="w-full h-[74px] bg-[#FAFAFA]">
-                        <div className="w-full h-[74px] p-[25px, 0px, 25px, 0px] bg-[#FAFAFA] flex flex-row justify-start items-center">
-                            <div className="w-[600px] h-6 gap-[213px]">
-                                <h6 className="text-softText">Made With Love By Finland All Right Reserved </h6>
+                <div className="w-full h-[272px]">
+                    <div className="w-full h-[270px] p-[50px_0px] flex flex-col lg:flex-row justify-between items-center gap-8">
+                        <div className="w-full lg:w-[calc(25%-1rem)] h-auto flex flex-col gap-5">
+                            <h5 className="text-title">Company Info</h5>
+                            <div className="flex flex-col gap-2.5">
+                                <a href="#">About Us</a>
+                                <a href="#">Career</a>
+                                <a href="#">We are hiring</a>
+                                <a href="#">Blog</a>
                             </div>
                         </div>
-                    </card>
-                </span>
-            </container>
+                        <div className="w-full lg:w-[calc(25%-1rem)] h-auto flex flex-col gap-5">
+                            <h5 className="text-title">Features</h5>
+                            <div className="flex flex-col gap-2.5">
+                                <a href="#">Business Marketing</a>
+                                <a href="#">User Analytic</a>
+                                <a href="#">Live Chat</a>
+                                <a href="#">Unlimited Support</a>
+                            </div>
+                        </div>
+                        <div className="w-full lg:w-[calc(25%-1rem)] h-auto flex flex-col gap-5">
+                            <h5 className="text-title">Resources</h5>
+                            <div className="flex flex-col gap-2.5">
+                                <a href="#">iOS & Android</a>
+                                <a href="#">Watch a Demo</a>
+                                <a href="#">Customers</a>
+                                <a href="#">API</a>
+                            </div>
+                        </div>
+                        <div className="w-full lg:w-[calc(25%-1rem)] h-auto flex flex-col gap-5">
+                            <h5 className="text-title">Get In Touch</h5>
+                            <div className="w-full h-14 rounded-md border bg-[#E6E6E6] flex items-center">
+                                <p className="text-softText flex-grow pl-4">Your Email</p>
+                                <button className="w-[117px] h-14 rounded-[0px_5px_5px_0px] border bg-[#23A6F0] flex items-center justify-center">
+                                    <p className="text-white">Subscribe</p>
+                                </button>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                <div className="w-full h-[74px] bg-[#FAFAFA] flex items-center">
+                    <div className="w-full h-[74px] flex items-center">
+                        <h6 className="text-softText mx-[50px]">Made With Love By Finland All Rights Reserved</h6>
+                    </div>
+                </div>
+            </div>
         </footer>
     )
 }

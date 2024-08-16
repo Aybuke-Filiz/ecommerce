@@ -4,7 +4,7 @@ export default function Container(){
     return (
         <>
         <container className="flex lg:flex-row flex-col w-full h-[92px] bg-[#FAFAFA]">
-        <span className="flex lg:flex-row flex-col w-full h-[44px]">
+        <span className="flex lg:flex-row flex-col w-[1049px] h-[44px]">
             <div className="flex lg:flex-row flex-col w-[510px] h-[32px] lg:mr-24">
                 <h3 className=" text-headerTop">SHOP</h3>
             </div>
