@@ -5,8 +5,23 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        headerTop: '#252B42',
+        white: '#FFFFFF',
+        title: '#252B42',
+        softText: '#737373',
+        click: '#23A6F0',
+        faint:"#BDBDBD",
+        green:"#23856D",
+        
+      },
+      inset: {
+        '176': '176px',
+      },
+    },
   },
   plugins: [],
+
 }
 
